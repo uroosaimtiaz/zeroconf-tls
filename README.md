@@ -19,3 +19,27 @@ The provided examples illustrate the implementation of public key cryptography a
 
 ### Save Contact
 Contact information is conveniently stored in a .json file format, containing the hostname and corresponding public key of devices for easy access and management.
+
+
+> Folder structure options and naming conventions for software projects
+
+### Directory layout
+    .
+    ├── src/
+    │   ├── __init__.py
+    │   ├── register.py
+    │   ├── advertise.py
+    │   ├── find_services.py
+    │   ├── tls_connection.py
+    │   └── save_contact.py
+    ├── test/
+    │   ├── __init__.py
+    │   ├── test_register.py
+    │   ├── test_advertise.py
+    │   ├── test_find_services.py
+    │   ├── test_tls_connection.py
+    │   └── test_save_contact.py
+    ├── contacts.json
+    ├── LICENSE
+    ├── README.md
+    └── requirements.txt
